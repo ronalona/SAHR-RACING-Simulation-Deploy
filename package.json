@@ -2,11 +2,12 @@
   "name": "stem-sim",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "dev": "vite",
-    "server": "node server.js",
-    "all": "concurrently \"npm run server\" \"npm run dev\""
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "server": "node server.js",
+  "start": "node server.js"
+},
   "dependencies": {
     "cors": "^2.8.6",
     "docx": "^9.6.1",
