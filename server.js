@@ -174,7 +174,7 @@ ${message}
 });
  app.use(express.static(path.join(__dirname, "dist")));
 
-app.get("*", (_, res) => {
+app.use((req, res) => {
   res.sendFile(path.join(__dirname, "dist", "index.html"));
 });
 app.listen(3001, () => {
