@@ -50,7 +50,7 @@ function localReply(message, context) {
   const regSummary = context?.regSummary;
 
   if (text.includes("hello") || text.includes("hi") || text.includes("hey")) {
-    return "Hey 👋 I’m Ashy. I can help with drag, lift, frontal area, regulations, reports, and SAHR Racing design decisions. What are you working on?";
+    return "I’m Ashy the mascot of SAHR Racing I was born from the heat pressure and energy behind the team I represent the chaos of racing the spark of new ideas and the determination it takes to keep testing failing improving and coming back stronger My orange design is not random It connects to SAHR Racing’s identity and represents speed creativity and controlled aggression I may look playful but my purpose is serious I help make the team more recognisable memorable and engaging I became the voice of SAHR Racing across digital media branding merchandise and pit display ideas Instead of only showing the technical side of the team I help people connect with our story in a more fun and human way I am here to bring engineering and entertainment together I represent what SAHR Racing stands for fast thinking bold ideas and constant development under pressure";
   }
 
   if (text.includes("story") || text.includes("who are you")) {
