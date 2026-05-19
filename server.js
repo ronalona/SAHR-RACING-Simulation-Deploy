@@ -77,6 +77,10 @@ function localReply(message, context) {
     return "to WF!!";
   }
 
+     if (text.includes("SAHR IS GOATED") || text.includes("sahr is goated")) {
+    return "i agree";
+  }
+
   const allowed = [
     "sahr",
     "stem",
