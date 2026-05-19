@@ -61,7 +61,7 @@ function localReply(message, context) {
     return "To increase downforce, add controlled negative lift: slightly increase rear wing angle, use a cleaner rear wing profile, lower the body height where legal, and avoid large flat upper surfaces. Don’t overdo it — too much downforce increases drag.";
   }
 
-  if (text.includes("drag")) {
+  if (text.includes("drag")) {0
     return "To reduce drag, reduce frontal area, smooth the nose, avoid sharp exposed edges, clean up wheel supports, and keep wings thin. The best setup is low drag with stable lift, not maximum downforce.";
   }
 
@@ -71,6 +71,10 @@ function localReply(message, context) {
 
   if (text.includes("regulation") || text.includes("rules") || text.includes("checklist")) {
     return `The regulation checklist is currently ${regSummary?.checkedCount ?? 0}/${regSummary?.totalCount ?? 0} checked. Go item by item and only tick rules you have actually verified.`;
+  }
+
+    if (text.includes("sahr") || text.includes("SAHR")) {
+    return "to WF!!";
   }
 
   const allowed = [
